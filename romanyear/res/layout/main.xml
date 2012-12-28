@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/mainLayout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    >
+    <ImageView android:id="@+id/imageView1" android:layout_height="wrap_content" android:layout_width="fill_parent" android:src="@drawable/romanbanner" android:layout_gravity="top" android:layout_weight="0.1"></ImageView>
+    <ImageView android:id="@+id/imageView4" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_gravity="top" android:layout_weight="1"></ImageView>
+    <LinearLayout android:id="@+id/linearLayout2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical" android:gravity="center_horizontal">
+        <EditText android:gravity="center" android:id="@+id/editText1" android:text="2012" android:textStyle="bold" android:textSize="36dp" android:layout_height="wrap_content" android:layout_width="wrap_content" android:width="240dp" android:layout_weight="1"></EditText>
+        <EditText android:background="#000000" android:textColor="#DDDDDD" android:textStyle="bold" android:textSize="26dp" android:id="@+id/editText2" android:text="MMXI" android:width="240dp" android:layout_height="wrap_content" android:gravity="center" android:layout_width="fill_parent" android:layout_weight="1"></EditText>
+    </LinearLayout>
+    <ImageView android:id="@+id/imageView2" android:layout_height="wrap_content" android:layout_gravity="bottom" android:layout_weight="1" android:layout_width="fill_parent" android:src="@drawable/romanionic2" android:scaleType="fitXY"></ImageView>
+    <ImageView android:id="@+id/imageView3" android:layout_height="wrap_content" android:layout_width="fill_parent" android:src="@drawable/romanbanner" android:layout_weight="0.1"></ImageView>
+</LinearLayout>

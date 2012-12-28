@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="version">1.0</string>
+    <string name="app_name">Roman and Julian Converter</string>
+    <string name="about">\n
+    Roman and Julian Converter\n
+    by Studio Coldstream
+    \n\n
+    Please send comments or report bugs to:
+    \n
+	studio.coldstream@gmail.com\n
+	\n
+	\n
+	\n
+	Support a Developer:
+    </string>
+</resources>
